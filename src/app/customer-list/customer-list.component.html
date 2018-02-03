@@ -1,0 +1,20 @@
+<!-- Page contains
+1. Add butoon to add a customer
+2. Search a customer
+3. Customer list as hyperlinks with simple animation 
+-->
+<p>
+  <button class="btn btn-primary" (click)="onAdd()">Add</button>
+</p>
+<div class="panel panel-primary">
+  <input type="text" name="searchData" class="form-control" placeholder="Search" [(ngModel)]="searchData">
+</div>
+<div class="list-group">
+  <a [routerLink]="['/customers', customer.id]" 
+  class="list-group-item" 
+  *ngFor="let customer of ( customers | async | searchBy : searchData)">
+  <div [@AnimateList]="currentState" (mouseover)="onMouseOver()" (mouseout)="onMouseOut()"> 
+     {{ customer?.name }}
+     </div>
+  </a>
+</div>

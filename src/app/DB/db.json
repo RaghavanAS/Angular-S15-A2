@@ -1,0 +1,62 @@
+{
+  "customers": [
+    {
+      "name": "raghavan",
+      "phone": "9988776655",
+      "email": "raghavan.as@hotmail.co.in",
+      "city": {
+        "city": "Bangalore"
+      },
+      "DOB": "1990-07-31",
+      "id": 1
+    },
+    {
+      "name": "dileep",
+      "phone": "9988776655",
+      "email": "pertlcms",
+      "city": {
+        "city": "Bangalore"
+      },
+      "DOB": "1990-08-31",
+      "id": 2
+    },
+    {
+      "name": "Sravan",
+      "phone": "9047794027",
+      "email": "lpkojihugy",
+      "city": {
+        "city": "Bangalore"
+      },
+      "DOB": "2010-05-12",
+      "id": 3
+    }
+  ],
+  "CityList": [
+    {
+      "city": "Chennai"
+    },
+    {
+      "city": "Hyderabad"
+    },
+    {
+      "city": "Bangalore"
+    },
+    {
+      "city": "Pune"
+    }
+  ],
+  "indexList": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ]
+}
